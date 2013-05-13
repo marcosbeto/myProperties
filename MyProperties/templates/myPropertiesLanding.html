@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Urbanizo</title>
+
+  <link rel="stylesheet" href="{{ MEDIA_URL }}meus_imoveis/foundation-4.1.3/css/normalize.css" />
+  <link rel="stylesheet" href="{{ MEDIA_URL }}meus_imoveis/css/foundation2.min.css">
+  <link rel="stylesheet" href="{{ MEDIA_URL }}meus_imoveis/css/style.css" />
+
+  <script src="{{ MEDIA_URL }}meus_imoveis/foundation-4.1.3/js/vendor/custom.modernizr.js"></script>
+
+  <link rel="stylesheet" href="{{ MEDIA_URL }}meus_imoveis/foundation-4.1.3/stylesheets/general_foundicons.css">
+
+  <link rel="stylesheet" href="{{ MEDIA_URL }}meus_imoveis/stylesheets/social_foundicons.css">
+
+	<style>
+
+		.buttonCadastro {
+			font-family: Arial;
+			color: #000;
+			font-size: 20px;
+			
+			padding: 0px 13px;
+			height: 65px;
+			line-height: 25px;
+			text-decoration: none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			
+			border: solid #ffffff 0px;
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#d4c300), to(#d4b400));
+			background: -moz-linear-gradient(top, #d4c300, #d4b400);
+		}
+
+		.buttonLogin {
+			font-family: Arial;
+			color: #000;
+			font-size: 16px;
+			
+			padding: 0px 13px;
+			height: 25px;
+			line-height: 25px;
+			text-decoration: none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			
+			border: solid #ffffff 0px;
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#d4c300), to(#d4b400));
+			background: -moz-linear-gradient(top, #d4c300, #d4b400);
+		}
+
+		.buttonFacebook {
+			font-family: Arial;
+			color: #ffffff;
+			font-weight:bold;
+			font-size: 20px;
+			text-shadow: 1px 1px 3px #262626;
+			padding: 0px 13px;
+			height: 65px;
+			line-height: 25px;
+			text-decoration: none;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			text-shadow: 1px 1px 3px #666666;
+			border: solid #ffffff 0px;
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#3164c2), to(#2e539e));
+			background: -moz-linear-gradient(top, #3164c2, #2e539e);
+		}
+
+		@font-face {
+		  font-family: 'Arvo';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+		}
+
+	</style>
+
+</head>
+
+<body style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;">
+
+
+<div id="top" data-magellan-expedition="fixed" style="position: fixed; top: 0px;">
+	<div class="row">
+		<div class="large-12 columns">
+			<nav class="top-bar"  >
+			  <ul class="title-area">
+			    
+			    <li class="name logo">
+			      <a href="/" style="font-weight:bold;"><span style="color:#fff;">urbanizo</span><span style="color:#ffd000;"> Meus Imóveis</span></a>
+			    </li>
+			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			  </ul>
+			
+			<section class="top-bar-section" stle>
+			    <ul class="right">
+			      <li class="divider"></li>
+			      <li data-magellan-arrival="features" class=""><a href="#features"><b>Funcionalidades</b></a></li>
+			      <li class="divider"></li>
+			      <li data-magellan-arrival="product" class=""><a href="#product">Como Funciona</a></li>
+			      <li class="divider"></li>
+			      <li data-magellan-arrival="premium" class=""><a href="#pricing-table">Cadastre-se</a></li>
+			      <li class="divider"></li>
+
+			      <li style="margin-left:20px;">
+			          <button type="button" name="" value="" class="buttonLogin" style="cursor:pointer;">Login</button>
+			      </li>
+			    </ul>
+			  </section></nav>
+		</div>
+	</div>
+</div> 
+
+
+
+
+<header id="header" style="background-image:url('{{ MEDIA_URL }}meus_imoveis/images/cityBackground_blur.jpg');background-repeat:no-repeat;background-color:#000;position:relative;top:0px;">
+	<div class="row">
+		<div class="large-12 columns align-center" style="font-family: 'Arvo';">
+			<h1><b><span style="font-family: 'Arvo';">Gerencie seu <br>Patrimônio Imobiliário</b></span></h1>
+				
+			<!-- <span class="subheading">Quanto custa seu imóvel? Qual o seu rendimento? Alugar ou comprar?</span> -->
+	        <div class="row align-center">
+		        <div class="large-12 columns align-center">
+			         <a href="/prototype"><button type="button" name="" value="" class="buttonCadastro" style="cursor:pointer;" >
+						<span style="padding:10px;"><b>Clique aqui para começar!</b></span>
+					</button> </a>
+					
+			        	    <button type="button" name="" value="" class="buttonFacebook" style="cursor:pointer;">
+								<span style="padding:10px;">ou entre com o Facebook</span>
+							</button> 
+						</div>
+			</div>
+<br><br>					    
+					
+			</div>
+			<br><br><br>
+			<img src="{{ MEDIA_URL }}meus_imoveis/images/header-macbook2.png" alt="iPhone App">
+		</div>
+	</div>
+</header>
+<div id="features" class="section features" data-magellan-destination="features">
+	<div class="row">
+		<div class="large-4 columns feature">
+			<span class="icon icon-house"></span>
+			<h3>Seus Imóveis</h3>
+			<p>Quão importante é saber quanto você possui em sua conta bancária é saber o valor do seu patrimônio imobiliário.</p>
+		</div>
+		<div class="large-4 columns feature">
+			<span class="icon icon-graph"></span>
+			
+			<h3>Rendimento Diário</h3>
+			<p>Fique sabendo se o seu imóvel está rendendo aquilo que você esperava. Não perca dinheiro e acompanhe de perto seus investimentos.</p>
+		</div>
+		<div class="large-4 columns feature">
+			<span class="icon icon-new"></span>
+			<h3>Alertas</h3>
+			<p>Seja avisado quando determinado imóvel está se desvalorizando e conheça outras áreas para investir. </p>
+		</div>
+	</div>
+</div>
+<div id="product" class="section product gray" data-magellan-destination="product">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Consciência Imobiliária.</h2>
+			<span class="subheading">Mais de 1 bilhão de dados analisados diariamente pelas nossas tecnologias imobiliárias.</span>
+			<div class="row">
+				<div class="small-4 columns hints align-center">
+					<div class="hint">
+						<h3>Análise<span class="icon icon-location"></span></h3>
+						<p>Tiramisu carrot cake dragee wypas cotton candy apple pie gummies carrot cake slices.</p>
+						<span class="arrow"></span>
+					</div>
+				</div>
+				<div class="small-4 columns hints align-center">
+					<div class="hint">
+						<h3>Varredura<span class="icon icon-popup"></span></h3>
+						<p>Tiramisu carrot cake dragee wypas cotton candy apple pie gummies carrot cake slices.</p>
+						<span class="arrow"></span>
+					</div>
+				</div>
+				<div class="small-4 columns hints align-center">
+					<div class="hint">
+						<h3>Cálculos<span class="icon icon-database"></span></h3>
+						<p>Tiramisu carrot cake dragee wypas cotton candy apple pie gummies carrot cake slices.</p>
+						<span class="arrow"></span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns hints iphone">
+					<img src="{{ MEDIA_URL }}meus_imoveis/images/header-macbook2.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="screenshot" class="section screenshot">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Não perca dinheiro com seus imóveis.</h2>
+			<span class="subheading">Nosso objetivo é mostrar a realidade do mercado e o reflexo em seus bens imobiliários.</span>
+	
+			
+		<div class="clearing-assembled"><div><a href="#" class="clearing-close">×</a><div class="visible-img" style="display: none"><img src="http://:0/"><p class="clearing-caption"></p><a href="#" class="clearing-main-left"><span></span></a><a href="#" class="clearing-main-right"><span></span></a></div><div class="carousel"><ul class="clearing-thumbs small-block-grid-3" data-clearing="" data-clearing-id="clearing1367880880933">
+				<li><a href="{{ MEDIA_URL }}meus_imoveis/images/screenshot-1.png"><img src="{{ MEDIA_URL }}meus_imoveis/images/screenshot-1.png"></a></li>
+				<li><a href="{{ MEDIA_URL }}meus_imoveis/images/screenshot-2.png"><img src="{{ MEDIA_URL }}meus_imoveis/images/screenshot-2.png"></a></li>
+				<li><a href="{{ MEDIA_URL }}meus_imoveis/images/screenshot-3.png"><img src="{{ MEDIA_URL }}meus_imoveis/images/screenshot-3.png"></a></li>
+  			</ul></div></div></div></div>
+	</div>
+</div>
+<div id="pricing-table" class="section pricing gray" data-magellan-destination="premium">
+	<div class="row quotes">
+		<div class="large-12 columns">
+			<div class="quote">
+				<blockquote>A bolha imobiliária é reflexo da falta de consciência imobiliária da população.</blockquote>
+				<span class="author">Dilma Roussef</span>
+			</div>
+		</div>
+	</div>
+	<div class="row price-table">
+		<div class="large-4 columns">
+			<ul class="pricing-table">
+			  <li class="title">Proprietário</li>
+			  <li class="description">Para aqueles que possuem apenas um imóvel.</li>
+			  <li class="price">Grátis</li>
+			  <li><a class="price-table-toggle">+ Show features</a></li>
+  			  <ul class="price-table-features">
+				  <li class="bullet-item">1 imóvel</li>
+				  <li class="bullet-item">Rendimentos</li>
+				  <li class="bullet-item">Evolução</li>
+			  </ul>
+			  <li class="cta-button"><a class="button secondary radius" href="#">Acesse agora!</a></li>
+			</ul>
+		</div>
+		<div class="large-4 columns">
+			<ul class="pricing-table featured">
+			  <li class="title">Investidor</li>
+			  <li class="description">Para aqueles que se preocupam em fazer um bom investimento.</li>
+			  <li class="price">R$ 4.99 por Mês</li>
+			  <li><a class="price-table-toggle">+ Show features</a></li>
+			  <ul class="price-table-features">
+				  <li class="bullet-item">Até 10 imóveis</li>
+				  <li class="bullet-item">Comparação</li>
+				  <li class="bullet-item">Alertas</li>
+			  </ul>
+			  <li class="cta-button"><a class="button radius" href="#">Quero Comprar!</a></li>
+			</ul>
+		</div>
+		<div class="large-4 columns">
+			<ul class="pricing-table">
+			  <li class="title">Corretor</li>
+			  <li class="description">Para profissionais de venda e antenados ao mercado.</li>
+			  <li class="price">R$ 19.99 por Mês</li>
+			  <li><a class="price-table-toggle">+ Show features</a></li>
+			  <ul class="price-table-features">
+				  <li class="bullet-item">Gestão Imobiliária</li>
+				  <li class="bullet-item">Gestão de Clientes</li>
+				  <li class="bullet-item">Anúncios Urbanizo</li>
+			  </ul>
+			  <li class="cta-button"><a class="button secondary radius" href="#">Quero Comprar!</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="row">
+		<div class="large-6 columns">
+			<ul class="inline-list">
+			  <li class="copyright">2013 © Urbanizo</li>
+			  <li><a href="#">Termos de Uso</a></li>
+			  <li><a href="#">Privacidade</a></li>
+  			</ul>
+		</div>
+		<div class="large-6 columns">
+			<ul class="inline-list right">
+				<li><a href="#" class="icon icon-facebook"></a></li>
+				<li><a href="#" class="icon icon-twitter"></a></li>
+				<li><a href="l#" class="icon icon-googleplus"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+	
+			
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery-1.9.1.min') +
+  '.js><\/script>')
+  </script> <script src="{{ MEDIA_URL }}meus_imoveis/javascript/zepto.js"></script>
+  
+  <script src="{{ MEDIA_URL }}meus_imoveis/foundation-4.1.3/js/foundation.min.js"></script>
+  <script src="{{ MEDIA_URL }}meus_imoveis/javascript/functions.js"></script>  
+  <script>
+    $(document).foundation();
+  </script>
+
+
+</body></html>

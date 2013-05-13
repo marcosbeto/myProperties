@@ -1,0 +1,191 @@
+<div id="step2"	style="display:none;">
+
+	<div class="row" style="position:relative;">
+		<div class="large-8 columns left">
+			<h1>Dados Financeiros</h1>
+		</div>
+		<div class="large-4 columns" style="margin-top:37px;">
+			<span class="label right">Passo 2 de 2</span> 
+		</div>
+    </div>
+
+    <hr style="	margin-top:-20px;">
+
+		<form class="custom">
+		
+	<div class="panel radius">
+  		
+  		<div class="row" style="padding-top:10px;">
+  			<div class="large-12" style="line-height:24px;">
+  				<div class="large-6 columns">
+  					<label>Quando você comprou esse imóvel?</label>
+	    			 <input name="startDate" type="text" id="startDate" class="date-picker"  style="width:180px;"placeholder="mês/ano" />
+				</div>
+
+				<div class="large-5 columns left" style="line-height:24px;">
+					<label>Você já quitou esse imóvel?</label>			    			 
+					<div class="row">
+			  			<div class="large-12">
+			  				<div class="large-5 columns">
+						    	<label for="radio1" onclick="document.getElementById('settledPropertyForm').style.display='block';document.getElementById('notSettledPropertyForm').style.display='none';"><input name="radio1" type="radio" id="radio1" style="display:block;" ><span class="custom radio"></span> Sim</label>
+							</div>
+							<div class="large-5 columns left">
+									<label for="radio1" onclick="document.getElementById('notSettledPropertyForm').style.display='block';document.getElementById('settledPropertyForm').style.display='none';"><input name="radio1" type="radio" id="radio2"  style="display:block;"><span class="custom radio"></span> Não</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="display:none;" id="settledPropertyForm">
+			<hr>
+			<div class="row" style="padding-top:10px;"  >
+	  			<div class="large-12" style="line-height:24px;">
+	  				<div class="large-6 columns">
+	  					<label>Quanto você pagou por esse imóvel?</label>
+		    			 <input type="text" style="width:180px;" placeholder="Ex.: R$ 765.300" />
+					</div>
+
+					<div class="large-5 columns left" style="line-height:24px;">
+						<label>Esse imóvel está alugado?</label>				    			 
+						<div class="row">
+				  			<div class="large-12">
+				  				<div class="large-5 columns">
+							    	<label for="radio2"><input name="radio1" type="radio" id="radio2" style="display:block;" ><span class="custom radio "></span> Sim</label>
+								</div>
+								<div class="large-5 columns left">
+										<label for="radio1"><input name="radio1" type="radio" id="radio2" style="display:block;"><span class="custom radio"></span> Não</label>
+								</div>
+									
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div style="display:none;" id="notSettledPropertyForm">
+			<hr>
+			
+			<div class="row" style="padding-top:10px;"  >
+	  			<div class="large-12" style="line-height:24px;">
+	  				
+	  				<div class="large-4 columns">
+						<label>Quanto você já pagou até a data atual?</label>
+		    			 <input type="text" style="width:120px;" placeholder="Ex.: R$ 64.000" />
+					</div>
+
+	  				
+					<div class="large-4 columns">
+						<label>Quando você acabará de pagar?</label>
+		    			 <input name="startDate" type="text" id="startDate" class="date-picker"  style="width:180px;"placeholder="mês/ano" />
+					</div>
+
+					<div class="large-4 columns">
+	  					<label>
+	  						No final, quanto você terá pagado por esse imóvel?</label>
+		    			 <input type="text" style="width:120px;" placeholder="Ex.: R$ 290.000" />
+					</div>
+
+				</div>
+			</div>
+			<hr>
+			<div class="row" >
+	  			<div class="large-12" style="line-height:24px;padding:14px;">
+	  				
+	  				<!-- <div style="display:none;">
+						<div class='panel radius' style="padding">
+							<h4>Descreva melhor o processo de pagamento:</h4>
+							<hr>
+							<div class="row" style="padding-left:10px;">
+								<div class="large-6 columns">
+									<div class="row">
+										Valor da parcela mensal
+			    					 	<input type="text" style="width:180px;" placeholder="mês/ano" />
+			    					 </div>
+			    					 <div class="row">
+			    					 	Taxa de Decoração
+			    					 	<input type="text" style="width:180px;" placeholder="mês/ano" />
+			    					 </div>
+			    					 <div class="row">
+			    					 	Entrega da Chave
+			    					 	<input type="text" style="width:180px;" placeholder="mês/ano" />
+			    					 </div>
+								</div>
+								<div class="large-6 columns">
+									<div class="row">
+										Parcelas intermediárias?
+									</div>
+									<div class="row" style="padding:15px;">
+										<div class="row">
+											<label for="checkbox4"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Trimestrais</label>
+				    					</div>
+				    					<div class="row">
+											<label for="checkbox4"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Semestrais</label>
+				    					</div>
+				    					<div class="row">
+											<label for="checkbox4"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Anuais</label>
+				    					</div>
+				    					
+				    				</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					
+					<div class="row" >
+			  			<div class="large-12 columns" style="line-height:24px;">
+			  			
+							<div class="large-4 columns left" style="line-height:24px;">
+								<label>Você já recebeu as chaves?</label>
+				    			 
+								<div class="row">
+						  			<div class="large-12">
+						  				<div class="large-5 columns">
+									    	<label for="radio2"><input name="radio1" type="radio" id="radio2" style="display:block;" ><span class="custom radio "></span> Sim</label>
+										</div>
+										<div class="large-5 columns left">
+												<label for="radio1"><input name="radio1" type="radio" id="radio2" style="display:block;"><span class="custom radio"></span> Não</label>
+										</div>
+											
+									</div>
+								</div>
+							</div>
+
+							<div class="large-4 columns left" style="line-height:24px;">
+								<label>Esse imóvel está alugado?</label>
+				    			 
+								<div class="row">
+						  			<div class="large-12">
+						  				<div class="large-5 columns">
+									    	<label for="radio2"><input name="radio1" type="radio" id="radio2" style="display:block;" ><span class="custom radio "></span> Sim</label>
+										</div>
+										<div class="large-5 columns left">
+												<label for="radio1"><input name="radio1" type="radio" id="radio2" style="display:block;"><span class="custom radio"></span> Não</label>
+										</div>
+											
+									</div>
+								</div>
+							</div>
+
+							<div class="large-4 columns">
+								<label>Qual o valor do aluguel?</label>
+				    			 <input  type="text" style="width:180px;" placeholder="Ex.: R$ 560,00" />
+							</div>
+
+
+						</div>
+					</div>
+					
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<a href="javascript:document.getElementById('myPropertyDetailPage').style.display='block';javascript:document.getElementById('controlPanel').style.display='none';document.getElementById('step1').style.display='none';document.getElementById('step2').style.display='none';" style="color:#fff;" class="radius button center">Finalizar!	</a> &nbsp; <button class="radius button secondary center">Cancelar</button>
+		</form>
+	</div>
